@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    /* font-family: ReithSans,Arial,Helvetica,freesans,sans-serif; */
+}
+.navbar{
+    background-color:white;
+    border-radius: 30px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float:right;
+    list-style: none; 
+    margin: 13px 20px;
+    font-weight: bold;
+}
+.navbar li a{
+    margin-top: 15px;
+    padding: 10px 3px;
+    text-decoration: none;
+    color:black;
+}
+.navbar li:hover{
+    text-decoration: underline;
+}
+.search{
+    float: right;
+    color: white;
+    padding: 12px 75px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 14px;
+    padding: 3px 17px;
+    width: 129px;
+}
+.navbar li a i{
+    font-size: 25px;
+    padding-right: 5px;
+    padding-bottom: 10px;
+}
+#icon{
+    margin-right: 115px;
+    border-right: 1px solid black;
+}
+.navbar li a img{
+    width: 60px;
+    height: 30px;
+}
+#container{
+    background-color:#b80000;
+    height: 100px;
+    margin-top: none;
+    font-family: ReithSans,Arial,Helvetica,freesans,sans-serif
+} 
+#news{
+    color:white;
+    font-size: 40px;
+    margin-left: 150px;
+}
+#container2{
+    margin-left: 150px;
+}
+#container2 ul{
+    overflow: auto;
+}
+#container2 li{
+    float: left;
+    list-style: none;
+    margin-top: 25px;
+}
+#container2 li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    margin-right: 20px;
+    text-align: center;
+}
+#container2 li a:hover{
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 2px;
+}
+#left-top-part{
+    position: relative;
+    width: 750px;
+    /* border: 2px solid red; */
+    height: 300px;
+    left: 150px;
+    top: 3px;
+}
+#article-summary{
+    width: 280px;;
+}
+#link{
+    font-size: 30px;
+    text-decoration: none;
+    color: #b80000;
+}
+#link:hover{
+    text-decoration: underline;
+}
+#time{
+    position: absolute;
+    top: 165px;
+    color: black;
+    padding-right: 10px;
+    border-right: 2px solid black;
+    text-decoration: none;
+}
+#place{
+    position: absolute;
+    top: 165px;
+    left: 40px;
+    margin-left: 7px;
+}
+#image{
+    position: absolute;
+    left: 265px;
+    top: 3px;
+}
+.left-bottom{
+    margin-left:150px ;
+}
+.carts{
+    height: 300px;
+    width: 250px;
+    /* border: 2px solid red; */
+    float: left;
+}
+#cart-1 img{
+    margin-left: 7px;
+    margin-top: 3px;
+}
+#cart-1 a{
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    position: relative;
+    left: 4px;
+    color: black;
+}
+#cart-1 a:hover{
+    text-decoration: underline;
+}
+#cart-1 p{
+    position: relative;
+    left: 4px;
+    top: 7px;
+}
+.details{
+    margin-top: 17px;
+}
+.details a{
+    padding-right: 10px;
+    border-right:2px solid black
+}
+.details span{
+    margin-left: 3px;
+}
+#australia{
+    width: 234px;
+}
+#auckland{
+    width: 234px;
+    height: 132px;
+}
+.top-right{
+    position: absolute;
+    width: 600px;
+    left: 905px;
+    top: 163px;
+    /* border: 2px solid red; */
+    height: 267px;
+}
+.carts-t{
+    width: 250px;
+    /* border: 2px solid red; */
+    float: left;
+    height: 267px;
+}
+#europe{
+    height: 132px;
+    width: 234px;
+}
+.carts-t img{
+    margin-left: 7px;
+}
+.carts-t a{
+    font-weight: bold;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    left: 4px;
+}
+.carts-t a:hover{
+    text-decoration: underline;
+}
+.carts-t p{
+    position: relative;
+    left: 4px;
+    top: 7px;
+}
+#cart-time{
+    font-weight: normal;
+}
+/* .right-bottom{ */
+    /* border: 2px solid red; */
+/* } */
+.blocks{
+    float: left;
+    width: 250px;
+    margin-left: 7px;
+}
+.blocks a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 17px;
+}
+.blocks a:hover{
+    text-decoration: underline;
+}
+.m-top{
+    margin-top: 19px;
+}
+.social{
+    border: 2px solid red;
+    margin-top: 300px;
+    margin-left: 150px;
+    width: 1250px;
+    position: relative;
+}
+.social::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    margin:auto;
+    background:black;
+    width: 89%;
+    top: 50%;
+    right: 0px;
+}
+.contact{
+    border: 2px solid red;
+    width: 1250px;
+    margin-left: 150px;
+}
+.logos{
+    float: left;
+    width: 88px;
+    height: 88px;
+    font-size: 50px;
+    padding-left: 15px;
+    padding-top: 20px;
+}
+.blocks-info{
+    float: left;
+}
+.wid{
+    width: 200px;
+    text-decoration: none;
+}
